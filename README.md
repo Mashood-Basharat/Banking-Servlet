@@ -1,0 +1,1 @@
+This is a baking application, implemented by two servlets; one for transactions and other for keep track of user's bank account balance. The main page is intex.html which contains the code for invoking these two servlets
