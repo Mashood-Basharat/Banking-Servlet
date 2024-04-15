@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Banking Transaction</title>
+    </head>
+    <body>
+        <form action="/BC210202166/TransactionServlet" method="post">           
+            <label>Initial Balance: </label>
+            <input type="text" name="Balance">
+            <br>
+            <label>Transaction Type: </label>
+            <select name="Type">
+                <option selected value="Withdrawal">Withdrawal</option>
+                <option value="Deposit">Deposit</option>
+            </select>
+            <br>
+            <label>Transaction Amount: </label>
+            <input type="text" name="Amount">
+            <br>
+            <input type="submit" value="Submit">      
+        </form>
+    </body>
+</html>
